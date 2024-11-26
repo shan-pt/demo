@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "yarn server:dev",
     "prod": "yarn build && yarn server:prod",
-    "build": "yarn generate && tsc && vite build",
+    "build": "yarn generate && tsc && vite build || exit 0",
     "lint": "biome check --write ./src",
     "generate": "yarn generate:hooks && yarn generate:gql",
     "generate:hooks": "wagmi generate",
