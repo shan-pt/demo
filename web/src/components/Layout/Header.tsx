@@ -79,12 +79,12 @@ export default function Header() {
               <ul className="dropdown-content z-[2] w-[248px] [&_svg]:text-purple-primary font-normal ">
                 <li className="flex space-x-2 items-center px-[24px] py-[16px] border-l-[3px] border-transparent hover:bg-purple-medium hover:border-l-purple-primary">
                   <Link to={"/policy/verified"} className="flex items-center space-x-2">
-                      <PolicyIcon /> <span> Verified Market Policy </span>
+                    <PolicyIcon /> <span> Verified Market Policy </span>
                   </Link>
                 </li>
                 <li className="flex space-x-2 items-center  px-[24px] py-[16px] border-l-[3px] border-transparent hover:bg-purple-medium hover:border-l-purple-primary">
                   <Link to={"/policy/rules"} className="flex items-center space-x-2">
-                      <PolicyIcon /> <span>Market Rules Policy</span>
+                    <PolicyIcon /> <span>Market Rules Policy</span>
                   </Link>
                 </li>
               </ul>
